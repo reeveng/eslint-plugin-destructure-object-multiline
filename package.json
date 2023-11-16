@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-destructure-object-multiline",
+  "name": "eslint-plugin-enforce-multiline-objects",
   "version": "0.0.0",
   "description": "destructure objects on multiple lines",
   "keywords": [

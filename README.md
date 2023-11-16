@@ -1,4 +1,4 @@
-# eslint-plugin-destructure-object-multiline
+# eslint-plugin-enforce-multiline-objects
 
 destructure objects on multiple lines
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-destructure-object-multiline`:
+Next, install `eslint-plugin-enforce-multiline-objects`:
 
 ```sh
-npm install eslint-plugin-destructure-object-multiline --save-dev
+npm install eslint-plugin-enforce-multiline-objects --save-dev
 ```
 
 ## Usage
 
-Add `destructure-object-multiline` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `enforce-multiline-objects` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "destructure-object-multiline"
+        "enforce-multiline-objects"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "destructure-object-multiline/rule-name": 2
+        "enforce-multiline-objects/rule-name": 2
     }
 }
 ```
